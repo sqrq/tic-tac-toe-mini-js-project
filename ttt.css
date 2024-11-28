@@ -1,0 +1,53 @@
+*{
+    background-color: grey;
+}
+td{
+    border: 2px solid #4CAF50;
+    height: 120px;
+    width: 120px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 60px;
+    cursor: pointer;
+    background-color: #f4f4f4;
+    transition: background-color 0.3s ease;
+}
+
+td:hover {
+    background-color: #e8f5e9;
+}
+
+table tr:first-child td {
+    border-top: 0;
+}
+
+table tr:last-child td {
+    border-bottom: 0;
+}
+
+.endgame {
+    display: none;
+    width: 250px;
+    top: 120px;
+    background-color: rgba(0, 123, 255, 0.9);
+    position: absolute;
+    left: 50%;
+    margin-left: -125px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+    border-radius: 8px;
+    color: #ffffff;
+    font-size: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.main_div{
+display: grid;
+justify-self: center;
+gap: 20px;
+}
+button{
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 15px;
+}
